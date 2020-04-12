@@ -6,13 +6,12 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './aplication/login/login.component';
 import {PagesComponent} from './pages/pages.component';
 import {SharedModule} from './shared/shared.module';
-import {PagesModule} from './pages/pages.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    PagesComponent
+    PagesComponent,
   ],
   imports: [
     BrowserModule,
@@ -20,6 +19,7 @@ import {PagesModule} from './pages/pages.module';
     SharedModule,
   ],
   providers: [],
+  exports: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

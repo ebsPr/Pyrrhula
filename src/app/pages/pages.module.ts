@@ -5,6 +5,7 @@ import {NewThreadComponent} from './threads/new-thread/new-thread.component';
 import {ListThreadsComponent} from './threads/list-threads/list-threads.component';
 import {PagesRoutingModule} from './pages-routing.module';
 import {SharedModule} from '../shared/shared.module';
+import {ComponentsModule} from '../components/components.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {SharedModule} from '../shared/shared.module';
   imports: [
     CommonModule,
     PagesRoutingModule,
-    SharedModule
+    SharedModule,
+    ComponentsModule
   ]
 })
 export class PagesModule { }

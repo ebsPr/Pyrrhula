@@ -1,5 +1,5 @@
 
-function initPlugins() {
+function initActions() {
   $(document).ready(function () {
 
     /* PROGGRESS START */
